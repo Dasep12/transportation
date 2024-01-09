@@ -1,0 +1,42 @@
+@yield('css')
+<!-- Select 2 Css -->
+<link href="{{ URL::asset('public/build/libs/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" />
+<!-- Bootstrap Css -->
+<link href="{{ URL::asset('public/build/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+<!-- Icons Css -->
+<link href="{{ URL::asset('public/build/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+<!-- App Css-->
+<link href="{{ URL::asset('public/build/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+<!-- App js -->
+<script src="{{ URL::asset('public/build/js/plugin.js') }}"></script>
+
+<!-- Plugins css -->
+<link href="{{ URL::asset('public/build/libs/dropzone/dropzone.css') }}" rel="stylesheet" type="text/css" />
+
+<!-- DataTables -->
+<link href="{{ URL::asset('public/build/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ URL::asset('public/build/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css" type="text/css">
+
+
+
+
+<!-- datapicker  Css -->
+<link href="{{ URL::asset('public/build/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{{ URL::asset('public/build/libs/@chenfengyuan/datepicker/datepicker.min.css') }}">
+
+
+<!-- timpicker  Css -->
+<link href="{{ URL::asset('public/build/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css') }}" rel="stylesheet" type="text/css">
+
+
+
+
+
+<!-- Lightbox css -->
+<link href="{{ URL::asset('public/build/libs/magnific-popup/magnific-popup.css') }}" rel="stylesheet" type="text/css" />
+
+
+<!-- Sweet Alert-->
+<link href="{{ URL::asset('public/build/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />

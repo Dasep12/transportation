@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Roboto";
+    src: url("https://dev.mundochiapas.com/assets/admin/fonts/Roboto-Regular.ttf") format("ttf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("https://dev.mundochiapas.com/assets/admin/fonts/Roboto-Bold.ttf") format("ttf");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 10px;
+    /*color: ;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #1e9bd8;
+}
+
+.template_wrap {
+    max-width: 1170px;
+    margin: auto;
+    display: table;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.logo a {
+    display: inline-block;
+    width: 200px;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-ledt {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.quatation_info {
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.about_start {
+    float: left;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr th,
+table tr td {
+    padding: 8px;
+}
+
+table tr th {
+    background-color: #e7e6e6;
+    color: #000;
+    text-align: left;
+}
+
+.temp_ftr {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.text-justify {
+    text-align: justify-all;
+}
+
+.border-top {
+    border-top: 1.5px solid black;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+.border-all {
+    border: 0.5px solid #000;
+    border-collapse: collapse;
+}
+
+.border-bottom {
+    border-bottom:0.5px solid black;
+}
+
+.border-right{
+    border-right: 0.5px solid black;
+}
+
+.border-top{
+    border-top: 0.5px solid black;
+}
+
+.border-left{
+    border-left: 0.5px solid black;
+}
+
+.color-cell {
+    background-color: #cccccc;
+}
+
+
+.brd1 tr td  {
+    border: 0.5px solid #000;
+    border-collapse: collapse;
+}
+
+.brd1 tr th  {
+    border: 0.5px solid #000;
+    border-collapse: collapse;
+}
+.brd1 tr td , .brd1 tr th {
+    padding: 0px !important;
+}
